@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ALU
-Tue Mar 24 20:28:05 2020
+Tue Mar 24 20:38:46 2020
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -36,10 +36,10 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Tue Mar 24 20:28:05 2020           ;
+; Analysis & Synthesis Status ; Failed - Tue Mar 24 20:38:46 2020           ;
 ; Quartus Prime Version       ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name               ; ALU                                         ;
-; Top-level Entity Name       ; correr_izquierda                            ;
+; Top-level Entity Name       ; mux6                                        ;
 ; Family                      ; Cyclone V                                   ;
 ; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
 ; Total registers             ; N/A until Partition Merge                   ;
@@ -57,7 +57,7 @@ refer to the applicable agreement for further details.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CGXFC7C7F23C8     ;                    ;
-; Top-level entity name                                                           ; correr_izquierda   ; ALU                ;
+; Top-level entity name                                                           ; mux6               ; ALU                ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -160,31 +160,31 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Tue Mar 24 20:27:54 2020
+    Info: Processing started: Tue Mar 24 20:38:30 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file operacioneslogicas/compuerta_and.sv
     Info (12023): Found entity 1: compuerta_and File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv Line: 3
-Error (10228): Verilog HDL error at compuerta_not.sv(3): module "compuerta_and" cannot be declared more than once File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv Line: 3
-Info (10499): HDL info at compuerta_and.sv(3): see declaration for object "compuerta_and" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv Line: 3
-Info (12021): Found 0 design units, including 0 entities, in source file operacioneslogicas/compuerta_not.sv
-Error (10228): Verilog HDL error at compuerta_or.sv(3): module "compuerta_and" cannot be declared more than once File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv Line: 3
-Info (10499): HDL info at compuerta_and.sv(3): see declaration for object "compuerta_and" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv Line: 3
-Info (12021): Found 0 design units, including 0 entities, in source file operacioneslogicas/compuerta_or.sv
-Error (10228): Verilog HDL error at compuerta_xor.sv(3): module "compuerta_and" cannot be declared more than once File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv Line: 3
-Info (10499): HDL info at compuerta_and.sv(3): see declaration for object "compuerta_and" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv Line: 3
-Info (12021): Found 0 design units, including 0 entities, in source file operacioneslogicas/compuerta_xor.sv
-Error (10228): Verilog HDL error at correr_derecha.sv(3): module "compuerta_and" cannot be declared more than once File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha.sv Line: 3
-Info (10499): HDL info at compuerta_and.sv(3): see declaration for object "compuerta_and" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv Line: 3
-Info (12021): Found 0 design units, including 0 entities, in source file operacioneslogicas/correr_derecha.sv
-Error (10228): Verilog HDL error at correr_izquierda.sv(3): module "compuerta_and" cannot be declared more than once File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda.sv Line: 3
-Info (10499): HDL info at compuerta_and.sv(3): see declaration for object "compuerta_and" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv Line: 3
-Info (12021): Found 0 design units, including 0 entities, in source file operacioneslogicas/correr_izquierda.sv
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 5 errors, 1 warning
-    Error: Peak virtual memory: 4774 megabytes
-    Error: Processing ended: Tue Mar 24 20:28:05 2020
-    Error: Elapsed time: 00:00:11
-    Error: Total CPU time (on all processors): 00:00:24
+Info (12021): Found 1 design units, including 1 entities, in source file operacioneslogicas/compuerta_not.sv
+    Info (12023): Found entity 1: compuerta_not File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file operacioneslogicas/compuerta_or.sv
+    Info (12023): Found entity 1: compuerta_or File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file operacioneslogicas/compuerta_xor.sv
+    Info (12023): Found entity 1: compuerta_xor File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file operacioneslogicas/correr_derecha.sv
+    Info (12023): Found entity 1: correr_derecha File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file operacioneslogicas/correr_izquierda.sv
+    Info (12023): Found entity 1: correr_izquierda File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file operacioneslogicas/mux6.sv
+    Info (12023): Found entity 1: mux6 File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6.sv Line: 1
+Info (12127): Elaborating entity "mux6" for the top level hierarchy
+Error (10996): Verilog HDL error at mux6.sv(1): parameter "N" has no initial or actual value File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6.sv Line: 1
+Error (12153): Can't elaborate top-level user hierarchy
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 2 errors, 1 warning
+    Error: Peak virtual memory: 4773 megabytes
+    Error: Processing ended: Tue Mar 24 20:38:46 2020
+    Error: Elapsed time: 00:00:16
+    Error: Total CPU time (on all processors): 00:00:36
 
 
