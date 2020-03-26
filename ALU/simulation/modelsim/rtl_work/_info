@@ -1,0 +1,235 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/simulation/modelsim
+vcompuerta_and
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1585255551
+!i10b 1
+!s100 LbVPN6]9hfonNIWiW^5k=0
+I0=7bezEF78n^P_QejG=ZL0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 compuerta_and_sv_unit
+S1
+R0
+w1585103148
+8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv
+FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1585255551.000000
+!s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv|
+!i113 1
+Z4 o-sv -work work
+Z5 !s92 -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas
+Z6 tCvgOpt 0
+vcompuerta_not
+R1
+Z7 !s110 1585255552
+!i10b 1
+!s100 aJiE6bHAH;T4_Ki:[3V<>3
+Ifh]Fz95dXfKz0JZLa0Nnl0
+R2
+!s105 compuerta_not_sv_unit
+S1
+R0
+Z8 w1585103581
+8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv
+FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1585255552.000000
+!s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv|
+!i113 1
+R4
+R5
+R6
+vcompuerta_or
+R1
+R7
+!i10b 1
+!s100 zKXA?KJ=IlUPj^Hm:h1YR1
+IcYdHP1fSZo<MGGGO24foX3
+R2
+!s105 compuerta_or_sv_unit
+S1
+R0
+R8
+8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv
+FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv|
+!i113 1
+R4
+R5
+R6
+vcompuerta_xor
+R1
+R7
+!i10b 1
+!s100 ?^zDb]SGZFS;R`zZKm3L`2
+IO=4?<9KRVkl[a0DRG>_TC2
+R2
+!s105 compuerta_xor_sv_unit
+S1
+R0
+R8
+8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv
+FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv|
+!i113 1
+R4
+R5
+R6
+vcorrer_derecha
+R1
+R7
+!i10b 1
+!s100 3P?F2[j1T7C2:MY_h=fS[2
+IRM^@K>c=D[AWWW1X=:JM>2
+R2
+!s105 correr_derecha_sv_unit
+S1
+R0
+R8
+8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha.sv
+FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha.sv|
+!i113 1
+R4
+R5
+R6
+vcorrer_izquierda
+R1
+R7
+!i10b 1
+!s100 QVY2Y6a;4E00n6]Dzf>Dd2
+IX@C@18HN3UjLdTG6zz:4>0
+R2
+!s105 correr_izquierda_sv_unit
+S1
+R0
+w1585103577
+8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda.sv
+FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda.sv|
+!i113 1
+R4
+R5
+R6
+vmux6
+R1
+R7
+!i10b 1
+!s100 WBR7H^VEBN53Cn30m`1kn1
+Ii;Q<m9Y?]EV=PQIjW3F6T2
+R2
+!s105 mux6_sv_unit
+S1
+R0
+w1585252756
+8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6.sv
+FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6.sv|
+!i113 1
+R4
+R5
+R6
+vunidad_logica
+R1
+R7
+!i10b 1
+!s100 @;X]Fe7Un8;YSf0@jZM@@2
+IOEPWKz]L1VE6j;mi_4fLd0
+R2
+!s105 unidad_logica_sv_unit
+S1
+R0
+w1585254580
+8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica.sv
+FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica.sv|
+!i113 1
+R4
+R5
+R6
+vunidad_logica_test
+R1
+R7
+!i10b 1
+!s100 FSSK678A2Tnj1PX5z;H>K3
+IF5IdEaVV_C0;P0gQ28LW_3
+R2
+!s105 unidad_logica_test_sv_unit
+S1
+R0
+w1585255508
+8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica_test.sv
+FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica_test.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica_test.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica_test.sv|
+!i113 1
+R4
+R5
+R6
