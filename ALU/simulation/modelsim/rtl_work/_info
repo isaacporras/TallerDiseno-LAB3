@@ -10,7 +10,7 @@ cModel Technology
 Z0 dD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/simulation/modelsim
 vcompuerta_and
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-!s110 1585255551
+!s110 1585257146
 !i10b 1
 !s100 LbVPN6]9hfonNIWiW^5k=0
 I0=7bezEF78n^P_QejG=ZL0
@@ -26,7 +26,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1585255551.000000
+!s108 1585257146.000000
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv|
 !i113 1
@@ -35,7 +35,7 @@ Z5 !s92 -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/A
 Z6 tCvgOpt 0
 vcompuerta_not
 R1
-Z7 !s110 1585255552
+Z7 !s110 1585257147
 !i10b 1
 !s100 aJiE6bHAH;T4_Ki:[3V<>3
 Ifh]Fz95dXfKz0JZLa0Nnl0
@@ -51,7 +51,7 @@ R3
 r1
 !s85 0
 31
-Z9 !s108 1585255552.000000
+Z9 !s108 1585257147.000000
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv|
 !i113 1
@@ -187,13 +187,13 @@ vunidad_logica
 R1
 R7
 !i10b 1
-!s100 @;X]Fe7Un8;YSf0@jZM@@2
-IOEPWKz]L1VE6j;mi_4fLd0
+!s100 GPEQ=78lCdI^Lz<^`dSi:0
+Iamz29VWIbzgE7F:J6;dQ41
 R2
 !s105 unidad_logica_sv_unit
 S1
 R0
-w1585254580
+w1585255910
 8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica.sv
 FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica.sv
 L0 1
@@ -212,13 +212,13 @@ vunidad_logica_test
 R1
 R7
 !i10b 1
-!s100 FSSK678A2Tnj1PX5z;H>K3
-IF5IdEaVV_C0;P0gQ28LW_3
+!s100 _SHk^V8@>[[ll=2Ff[gKV1
+INbQ8HQOc5MhmVT`KkfL7X3
 R2
 !s105 unidad_logica_test_sv_unit
 S1
 R0
-w1585255508
+w1585257110
 8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica_test.sv
 FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica_test.sv
 L0 1

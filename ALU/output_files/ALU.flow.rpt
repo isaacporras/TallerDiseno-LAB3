@@ -1,5 +1,5 @@
 Flow report for ALU
-Thu Mar 26 14:45:39 2020
+Thu Mar 26 15:12:18 2020
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Thu Mar 26 14:45:39 2020       ;
+; Flow Status                 ; Successful - Thu Mar 26 15:12:18 2020       ;
 ; Quartus Prime Version       ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name               ; ALU                                         ;
 ; Top-level Entity Name       ; unidad_logica_test                          ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/26/2020 14:45:27 ;
+; Start date & time ; 03/26/2020 15:12:06 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ALU                 ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+--------------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name        ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+--------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 220045545805507.158525552717284        ; --            ; --                 ; --             ;
+; COMPILER_SIGNATURE_ID               ; 220045545805507.158525712516608        ; --            ; --                 ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --            ; --                 ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --                 ; --             ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; unidad_logica_test ; Top            ;
@@ -89,8 +89,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:12     ; 1.0                     ; 4774 MB             ; 00:00:31                           ;
-; Total                  ; 00:00:12     ; --                      ; --                  ; 00:00:31                           ;
+; Analysis & Elaboration ; 00:00:13     ; 1.0                     ; 4774 MB             ; 00:00:30                           ;
+; Total                  ; 00:00:13     ; --                      ; --                  ; 00:00:30                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

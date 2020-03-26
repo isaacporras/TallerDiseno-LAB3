@@ -8,42 +8,25 @@ module unidad_logica_test();
 	
 	initial begin
 	
-		numero1 = 8'b11001001;
-	numero2 = 8'b10100111;
+	numero1 = 8'b11100101;
+	numero2 = 8'b10101011;
 	ALUControl = 3'b111;
 	//#10 assert(resultado == 8'bz);
 	ALUControl = 3'b000;
-	#10 assert(resultado == 8'b11101111);
+	#10 assert(resultado == 8'b10100001);
 	ALUControl = 3'b001;
-	#10 assert(resultado == 8'b01101110);
+	#10 assert(resultado == 8'b11101111);
 	ALUControl = 3'b010;
-	#10 assert(resultado == 8'b10000001);
+	#10 assert(resultado == 8'b01001110);
 	ALUControl = 3'b011;
-	#10 assert(resultado == 8'b10010011);
+	#10 assert(resultado == 8'b00011010);
 	ALUControl = 3'b100;
 	#10 assert(resultado == 8'b0);
-	numero2 = 8'b100;	
+	numero2 = 8'b0000011;
 	#10 assert(resultado == 8'b00001100);
 	ALUControl = 3'b101;
 	#10 assert(resultado == 8'b10010000);
 
-	numero1 = 8'b01001011;
-	numero2 = 8'b00000100;
-	ALUControl = 3'b111;
-	//#10 assert(resultado == 8'bz);
-	ALUControl = 3'b000;
-	#10 assert(resultado == 8'b01001111);
-	ALUControl = 3'b001;
-	#10 assert(resultado == 8'b01001111);
-	ALUControl = 3'b010;
-	#10 assert(resultado == 8'b00000000);
-	ALUControl = 3'b011;
-	#10 assert(resultado == 8'b10110100);
-	ALUControl = 3'b100;	
-	#10 assert(resultado == 8'b00000100);
-	ALUControl = 3'b101;
-	#10 assert(resultado == 8'b10110000);
-			
 	end
 	
 endmodule 
