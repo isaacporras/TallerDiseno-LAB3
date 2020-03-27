@@ -12,98 +12,98 @@
 # 
 # vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:12:26 on Mar 26,2020
+# Start time: 11:45:06 on Mar 27,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv 
 # -- Compiling module compuerta_and
 # 
 # Top level modules:
 # 	compuerta_and
-# End time: 15:12:26 on Mar 26,2020, Elapsed time: 0:00:00
+# End time: 11:45:06 on Mar 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:12:27 on Mar 26,2020
+# Start time: 11:45:06 on Mar 27,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv 
 # -- Compiling module compuerta_not
 # 
 # Top level modules:
 # 	compuerta_not
-# End time: 15:12:27 on Mar 26,2020, Elapsed time: 0:00:00
+# End time: 11:45:06 on Mar 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:12:27 on Mar 26,2020
+# Start time: 11:45:06 on Mar 27,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv 
 # -- Compiling module compuerta_or
 # 
 # Top level modules:
 # 	compuerta_or
-# End time: 15:12:27 on Mar 26,2020, Elapsed time: 0:00:00
+# End time: 11:45:06 on Mar 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:12:27 on Mar 26,2020
+# Start time: 11:45:06 on Mar 27,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv 
 # -- Compiling module compuerta_xor
 # 
 # Top level modules:
 # 	compuerta_xor
-# End time: 15:12:27 on Mar 26,2020, Elapsed time: 0:00:00
+# End time: 11:45:06 on Mar 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:12:27 on Mar 26,2020
+# Start time: 11:45:06 on Mar 27,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha.sv 
 # -- Compiling module correr_derecha
 # 
 # Top level modules:
 # 	correr_derecha
-# End time: 15:12:27 on Mar 26,2020, Elapsed time: 0:00:00
+# End time: 11:45:06 on Mar 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:12:27 on Mar 26,2020
+# Start time: 11:45:06 on Mar 27,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda.sv 
 # -- Compiling module correr_izquierda
 # 
 # Top level modules:
 # 	correr_izquierda
-# End time: 15:12:27 on Mar 26,2020, Elapsed time: 0:00:00
+# End time: 11:45:07 on Mar 27,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:12:27 on Mar 26,2020
+# Start time: 11:45:07 on Mar 27,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6.sv 
 # -- Compiling module mux6
 # 
 # Top level modules:
 # 	mux6
-# End time: 15:12:27 on Mar 26,2020, Elapsed time: 0:00:00
+# End time: 11:45:07 on Mar 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:12:27 on Mar 26,2020
+# Start time: 11:45:07 on Mar 27,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica.sv 
 # -- Compiling module unidad_logica
 # 
 # Top level modules:
 # 	unidad_logica
-# End time: 15:12:27 on Mar 26,2020, Elapsed time: 0:00:00
+# End time: 11:45:07 on Mar 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica_test.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:12:27 on Mar 26,2020
+# Start time: 11:45:07 on Mar 27,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica_test.sv 
 # -- Compiling module unidad_logica_test
 # 
 # Top level modules:
 # 	unidad_logica_test
-# End time: 15:12:27 on Mar 26,2020, Elapsed time: 0:00:00
+# End time: 11:45:07 on Mar 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vsim work.unidad_logica_test
 # vsim work.unidad_logica_test 
-# Start time: 15:12:44 on Mar 26,2020
+# Start time: 11:45:35 on Mar 27,2020
 # Loading sv_std.std
 # Loading work.unidad_logica_test
 # Loading work.unidad_logica
@@ -114,21 +114,11 @@ vsim work.unidad_logica_test
 # Loading work.correr_derecha
 # Loading work.correr_izquierda
 # Loading work.mux6
-# ** Warning: (vsim-3015) D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica.sv(15): [PCDPC] - Port size (8) does not match connection size (1) for port 'shift_right_out'. The port definition is at: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /unidad_logica_test/PRUEBA/RShift File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha.sv
-# ** Warning: (vsim-3015) D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica.sv(16): [PCDPC] - Port size (8) does not match connection size (1) for port 'shift_left_out'. The port definition is at: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /unidad_logica_test/PRUEBA/LShift File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda.sv
-# ** Warning: (vsim-3015) D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica.sv(18): [PCDPC] - Port size (8) does not match connection size (1) for port 'result5'. The port definition is at: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /unidad_logica_test/PRUEBA/Mux File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6.sv
-# ** Warning: (vsim-3015) D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica.sv(18): [PCDPC] - Port size (8) does not match connection size (1) for port 'result6'. The port definition is at: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /unidad_logica_test/PRUEBA/Mux File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6.sv
 add wave -position insertpoint sim:/unidad_logica_test/*
 run
-# ** Error: Assertion error.
-#    Time: 50 ps  Scope: unidad_logica_test File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica_test.sv Line: 24
 # ** Error: Assertion error.
 #    Time: 60 ps  Scope: unidad_logica_test File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica_test.sv Line: 26
 # ** Error: Assertion error.
 #    Time: 70 ps  Scope: unidad_logica_test File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/unidad_logica_test.sv Line: 28
-# End time: 15:15:05 on Mar 26,2020, Elapsed time: 0:02:21
-# Errors: 3, Warnings: 4
+# End time: 11:47:33 on Mar 27,2020, Elapsed time: 0:01:58
+# Errors: 2, Warnings: 0
