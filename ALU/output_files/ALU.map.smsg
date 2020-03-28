@@ -1,2 +1,2 @@
-Warning (10273): Verilog HDL warning at mux6_test.sv(36): extended using "x" or "z" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6_test.sv Line: 36
-Warning (10273): Verilog HDL warning at mux6_test.sv(39): extended using "x" or "z" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/mux6_test.sv Line: 39
+Warning (10273): Verilog HDL warning at mux3a8_test.sv(37): extended using "x" or "z" File: C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/mux3a8_test.sv Line: 37
+Warning (10273): Verilog HDL warning at mux3a8_test.sv(40): extended using "x" or "z" File: C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/mux3a8_test.sv Line: 40

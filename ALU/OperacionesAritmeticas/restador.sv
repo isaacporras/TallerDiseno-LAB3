@@ -1,4 +1,4 @@
-module restador #(parameter N = 8) ( input logic [N-1:0] a,b,
+module restador #(parameter N = 8) ( input logic [N-1:0] a, b,
 												 output logic [N-1:0] rest_out );
 
 assign rest_out = a - b;
