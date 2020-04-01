@@ -10,43 +10,225 @@
 # Copying D:/ProgramData/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:40 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv 
+# -- Compiling module compuerta_and
+# 
+# Top level modules:
+# 	compuerta_and
+# End time: 21:09:40 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:40 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv 
+# -- Compiling module compuerta_not
+# 
+# Top level modules:
+# 	compuerta_not
+# End time: 21:09:41 on Mar 31,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:41 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv 
+# -- Compiling module compuerta_or
+# 
+# Top level modules:
+# 	compuerta_or
+# End time: 21:09:41 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:41 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv 
+# -- Compiling module compuerta_xor
+# 
+# Top level modules:
+# 	compuerta_xor
+# End time: 21:09:41 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:41 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv 
+# -- Compiling module unidad_logico_aritmetica
+# 
+# Top level modules:
+# 	unidad_logico_aritmetica
+# End time: 21:09:41 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica_test.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:41 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica_test.sv 
+# -- Compiling module unidad_logico_aritmetica_test
+# 
+# Top level modules:
+# 	unidad_logico_aritmetica_test
+# End time: 21:09:42 on Mar 31,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/restador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:42 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/restador.sv 
+# -- Compiling module restador
+# 
+# Top level modules:
+# 	restador
+# End time: 21:09:42 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/sumador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:42 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/sumador.sv 
+# -- Compiling module sumador
+# 
+# Top level modules:
+# 	sumador
+# End time: 21:09:42 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha_logico.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:42 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha_logico.sv 
+# -- Compiling module correr_derecha_logico
+# 
+# Top level modules:
+# 	correr_derecha_logico
+# End time: 21:09:42 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda_logico.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:42 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda_logico.sv 
+# -- Compiling module correr_izquierda_logico
+# 
+# Top level modules:
+# 	correr_izquierda_logico
+# End time: 21:09:42 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/mux3a8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:43 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/mux3a8.sv 
+# -- Compiling module mux3a8
+# 
+# Top level modules:
+# 	mux3a8
+# End time: 21:09:43 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/mux1a2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:43 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/mux1a2.sv 
+# -- Compiling module mux1a2
+# 
+# Top level modules:
+# 	mux1a2
+# End time: 21:09:43 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/correr_derecha_aritmetico.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:43 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/correr_derecha_aritmetico.sv 
+# -- Compiling module correr_derecha_aritmetico
+# 
+# Top level modules:
+# 	correr_derecha_aritmetico
+# End time: 21:09:43 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/correr_izquierda_aritmetico.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:43 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/correr_izquierda_aritmetico.sv 
+# -- Compiling module correr_izquierda_aritmetico
+# 
+# Top level modules:
+# 	correr_izquierda_aritmetico
+# End time: 21:09:43 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_negativo.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:43 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_negativo.sv 
+# -- Compiling module flag_negativo
+# 
+# Top level modules:
+# 	flag_negativo
+# End time: 21:09:44 on Mar 31,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_overflow.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:52:37 on Mar 31,2020
+# Start time: 21:09:44 on Mar 31,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_overflow.sv 
 # -- Compiling module flag_overflow
 # 
 # Top level modules:
 # 	flag_overflow
-# End time: 19:52:37 on Mar 31,2020, Elapsed time: 0:00:00
+# End time: 21:09:44 on Mar 31,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/overflow_flag_test.sv}
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_carry.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:52:38 on Mar 31,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/overflow_flag_test.sv 
-# -- Compiling module overflow_flag_test
-# ** Warning: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/overflow_flag_test.sv(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/overflow_flag_test.sv(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# Start time: 21:09:44 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_carry.sv 
+# -- Compiling module flag_carry
 # 
 # Top level modules:
-# 	overflow_flag_test
-# End time: 19:52:38 on Mar 31,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 2
+# 	flag_carry
+# End time: 21:09:44 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags {D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_cero.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:44 on Mar 31,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags" D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_cero.sv 
+# -- Compiling module flag_cero
 # 
-vsim work.overflow_flag_test
-# vsim work.overflow_flag_test 
-# Start time: 19:52:46 on Mar 31,2020
+# Top level modules:
+# 	flag_cero
+# End time: 21:09:44 on Mar 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.unidad_logico_aritmetica_test
+# vsim work.unidad_logico_aritmetica_test 
+# Start time: 21:10:36 on Mar 31,2020
 # Loading sv_std.std
-# Loading work.overflow_flag_test
+# Loading work.unidad_logico_aritmetica_test
+# Loading work.unidad_logico_aritmetica
+# Loading work.compuerta_and
+# Loading work.compuerta_or
+# Loading work.compuerta_xor
+# Loading work.compuerta_not
+# Loading work.correr_derecha_logico
+# Loading work.correr_izquierda_logico
+# Loading work.mux3a8
+# Loading work.sumador
+# Loading work.restador
+# Loading work.correr_derecha_aritmetico
+# Loading work.correr_izquierda_aritmetico
+# Loading work.mux1a2
+# Loading work.flag_negativo
+# Loading work.flag_cero
 # Loading work.flag_overflow
-add wave -position insertpoint sim:/overflow_flag_test/*
+# Loading work.flag_carry
+# ** Warning: (vsim-3015) D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv(39): [PCDPC] - Port size (8) does not match connection size (1) for port 'result7'. The port definition is at: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/mux3a8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /unidad_logico_aritmetica_test/PRUEBA/MuxA File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/mux3a8.sv
+# ** Warning: (vsim-3015) D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv(39): [PCDPC] - Port size (8) does not match connection size (1) for port 'result8'. The port definition is at: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/mux3a8.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /unidad_logico_aritmetica_test/PRUEBA/MuxA File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/mux3a8.sv
+# ** Warning: (vsim-3015) D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv(44): [PCDPC] - Port size (1) does not match connection size (8) for port 'ultimo_bit'. The port definition is at: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_negativo.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /unidad_logico_aritmetica_test/PRUEBA/Fnegativo File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_negativo.sv
+# ** Warning: (vsim-3015) D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv(44): [PCDPC] - Port size (1) does not match connection size (2) for port 'ALU_Control'. The port definition is at: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_negativo.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /unidad_logico_aritmetica_test/PRUEBA/Fnegativo File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_negativo.sv
+# ** Warning: (vsim-3015) D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv(47): [PCDPC] - Port size (3) does not match connection size (2) for port 'ALU_Control'. The port definition is at: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_carry.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /unidad_logico_aritmetica_test/PRUEBA/FCarry File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_carry.sv
+add wave -position insertpoint sim:/unidad_logico_aritmetica_test/*
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: skryf  Hostname: DESKTOP-VRFLMRQ  ProcessID: 16868
-#           Attempting to use alternate WLF file "./wlftrjgb1d".
+#           Attempting to use alternate WLF file "./wlftgzmyxj".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftrjgb1d
+#           Using alternate file: ./wlftgzmyxj
 run
-# ** Error: Deteccion de overflow fallo
-#    Time: 30 ps  Scope: overflow_flag_test File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/overflow_flag_test.sv Line: 32
-# End time: 19:53:18 on Mar 31,2020, Elapsed time: 0:00:32
-# Errors: 1, Warnings: 2
+# End time: 21:13:20 on Mar 31,2020, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 7

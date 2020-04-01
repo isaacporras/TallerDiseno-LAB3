@@ -8,7 +8,7 @@ module overflow_flag_test();
 	
 	
 	initial begin
-		ALUControl = 4'd1000;  // suma
+		ALUControl = 4'b1000;  // suma
 		
 		num1 = 4'b1001;
 		num2 = 4'b1010; 
@@ -23,7 +23,7 @@ module overflow_flag_test();
 		assert(overflow === 1) else $error("Deteccion de overflow fallo");
 
 		
-		ALUControl = 4'd1001; // resta
+		ALUControl = 4'b1001; // resta
 		
 		num1 = 4'b0111;
 		num2 = 4'b0110; 

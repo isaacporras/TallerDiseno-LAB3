@@ -1,7 +1,7 @@
   
 module flag_overflow(input logic msb_num1, msb_num2, msb_resultado,
-								input logic[3:0] ALU_Control, 
-								output logic overflow);
+							input logic[3:0] ALU_Control, 
+							output logic overflow);
 
 
 logic operacion; //Chekea que la operacion sea de suma o resta

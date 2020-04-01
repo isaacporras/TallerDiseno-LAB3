@@ -2,7 +2,11 @@ module unidad_logico_aritmetica
 	#(parameter N = 8)
 		(input logic [N-1:0] operador1, operador2,
 		input logic [3:0] ALUControl,
-		output logic [N-1:0] resultadoFinal);
+		output logic [N-1:0] resultadoFinal,
+		output logic flagNegativo,
+		output logic flagCero,
+		output logic flagOverflow,
+		output logic flagCarry);
 			
 			logic [N-1:0] and_resultado, or_resultado, xor_resultado, not_resultado;
 			logic [N-1:0] correr_izq_al_resultado, correr_der_al_resultado, correr_izq_bl_resultado, correr_der_bl_resultado;
@@ -36,6 +40,13 @@ module unidad_logico_aritmetica
 			correr_der_ba_resultado, correr_izq_ba_resultado, 1'bz, 1'bz, ALUControl[2:0], resultado2);
 			
 			mux1a2 #(N) MuxR(resultado1, resultado2, ALUControl[3], resultadoFinal);
+			
+			flag_negativo  Fnegativo(resultadoFinal,  ALUControl[1:0],flagNegativo);
+			flag_cero #(N) FCero(resultadoFinal, flagCero);
+			flag_overflow FOverflow(operador1[N-1], operador2[N-1], resultadoFinal[N-1], ALUControl,flagOverflow);
+			flag_carry  FCarry(carry_out_suma, ALUControl[1:0],flagCarry);
+			
+			
 			
 		
 	endmodule 

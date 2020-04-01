@@ -1,7 +1,8 @@
 module flag_negativo #(parameter N = 8)(
-							input logic [N-1:0] ultimo_bit,
-							output logic [N-1:0] resultado );
+							input logic  ultimo_bit,
+							input logic  ALU_Control,
+							output logic resultado);
 										
-assign resultado = ultimo_bit;
+assign resultado = ultimo_bit & ALU_Control;
 
 endmodule 
