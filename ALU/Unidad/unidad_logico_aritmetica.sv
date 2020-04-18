@@ -41,12 +41,9 @@ module unidad_logico_aritmetica
 			
 			mux1a2 #(N) MuxR(resultado1, resultado2, ALUControl[3], resultadoFinal);
 			
-			flag_negativo  Fnegativo(resultadoFinal,  ALUControl[1:0],flagNegativo);
+			flag_negativo #(N) Fnegativo(resultadoFinal[N-1], flagNegativo);
 			flag_cero #(N) FCero(resultadoFinal, flagCero);
-			flag_overflow FOverflow(operador1[N-1], operador2[N-1], resultadoFinal[N-1], ALUControl,flagOverflow);
-			flag_carry  FCarry(carry_out_suma, ALUControl[1:0],flagCarry);
-			
-			
-			
-		
-	endmodule 
+			flag_overflow #(N) FOverflow(carry_out_suma, ALUControl, flagOverflow);
+			flag_carry #(N) FCarry(carry_out_suma, ALUControl[3:0], flagCarry);
+					
+endmodule 

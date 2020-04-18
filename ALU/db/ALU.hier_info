@@ -9,7 +9,7 @@ operador1[3] => operador1[3].IN10
 operador1[4] => operador1[4].IN10
 operador1[5] => operador1[5].IN10
 operador1[6] => operador1[6].IN10
-operador1[7] => operador1[7].IN11
+operador1[7] => operador1[7].IN10
 operador2[0] => operador2[0].IN9
 operador2[1] => operador2[1].IN9
 operador2[2] => operador2[2].IN9
@@ -17,11 +17,11 @@ operador2[3] => operador2[3].IN9
 operador2[4] => operador2[4].IN9
 operador2[5] => operador2[5].IN9
 operador2[6] => operador2[6].IN9
-operador2[7] => operador2[7].IN10
-ALUControl[0] => ALUControl[0].IN5
-ALUControl[1] => ALUControl[1].IN5
-ALUControl[2] => ALUControl[2].IN3
-ALUControl[3] => ALUControl[3].IN2
+operador2[7] => operador2[7].IN9
+ALUControl[0] => ALUControl[0].IN4
+ALUControl[1] => ALUControl[1].IN4
+ALUControl[2] => ALUControl[2].IN4
+ALUControl[3] => ALUControl[3].IN3
 resultadoFinal[0] <= resultadoFinal[0].DB_MAX_OUTPUT_PORT_TYPE
 resultadoFinal[1] <= resultadoFinal[1].DB_MAX_OUTPUT_PORT_TYPE
 resultadoFinal[2] <= resultadoFinal[2].DB_MAX_OUTPUT_PORT_TYPE
@@ -30,9 +30,9 @@ resultadoFinal[4] <= resultadoFinal[4].DB_MAX_OUTPUT_PORT_TYPE
 resultadoFinal[5] <= resultadoFinal[5].DB_MAX_OUTPUT_PORT_TYPE
 resultadoFinal[6] <= resultadoFinal[6].DB_MAX_OUTPUT_PORT_TYPE
 resultadoFinal[7] <= resultadoFinal[7].DB_MAX_OUTPUT_PORT_TYPE
-flagNegativo <= flag_negativo:Fnegativo.port2
+flagNegativo <= flag_negativo:Fnegativo.port1
 flagCero <= flag_cero:FCero.port1
-flagOverflow <= flag_overflow:FOverflow.port4
+flagOverflow <= flag_overflow:FOverflow.port2
 flagCarry <= flag_carry:FCarry.port2
 
 
@@ -573,9 +573,8 @@ out[7] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|flag_negativo:Fnegativo
-ultimo_bit => resultado.IN0
-ALU_Control => resultado.IN1
-resultado <= resultado.DB_MAX_OUTPUT_PORT_TYPE
+ultimo_bit => resultado.DATAIN
+resultado <= ultimo_bit.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|flag_cero:FCero
@@ -591,11 +590,8 @@ zero_output <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|flag_overflow:FOverflow
-msb_num1 => signo_operandos.IN0
-msb_num1 => cambio_de_signo.IN0
-msb_num2 => signo_operandos.IN1
-msb_resultado => cambio_de_signo.IN1
-ALU_Control[0] => signo_operandos.IN1
+carry_out => overflow.IN1
+ALU_Control[0] => Equal0.IN3
 ALU_Control[1] => Equal0.IN2
 ALU_Control[2] => Equal0.IN1
 ALU_Control[3] => Equal0.IN0
@@ -604,9 +600,10 @@ overflow <= overflow.DB_MAX_OUTPUT_PORT_TYPE
 
 |unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|flag_carry:FCarry
 carry_in => carry_output.IN1
-ALU_Control[0] => Equal0.IN2
-ALU_Control[1] => Equal0.IN1
-ALU_Control[2] => Equal0.IN0
+ALU_Control[0] => Equal0.IN3
+ALU_Control[1] => Equal0.IN2
+ALU_Control[2] => Equal0.IN1
+ALU_Control[3] => Equal0.IN0
 carry_output <= carry_output.DB_MAX_OUTPUT_PORT_TYPE
 
 

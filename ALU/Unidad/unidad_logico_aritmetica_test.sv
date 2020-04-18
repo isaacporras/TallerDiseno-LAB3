@@ -12,10 +12,8 @@ module unidad_logico_aritmetica_test();
 	
 	initial begin
 	
-	//numero1 = 8'b10110101;
-	//numero2 = 8'b10101011;	
-	numero1 = 8'b0;
-	numero2 = 8'b0;	
+	numero1 = 8'b10110101;
+	numero2 = 8'b10101011;
 	
 	ALUControl = 4'b0000;
 	#10;
