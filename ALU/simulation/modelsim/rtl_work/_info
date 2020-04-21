@@ -7,53 +7,53 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/simulation/modelsim
+Z0 dC:/TallerDiseno-LAB3/ALU/simulation/modelsim
 vcompuerta_and
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1587233460
+Z2 !s110 1587435935
 !i10b 1
 !s100 LbVPN6]9hfonNIWiW^5k=0
-I9C[lJR2@gRgQ87CI0_YfR1
+Ie<5hMlXi]BoFBl_59a0z01
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 compuerta_and_sv_unit
 S1
 R0
-Z4 w1585333678
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_and.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_and.sv
+Z4 w1587427065
+8C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_and.sv
+FC:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_and.sv
 L0 3
 Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1587233460.000000
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_and.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_and.sv|
+Z6 !s108 1587435935.000000
+!s107 C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_and.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/OperacionesLogicas|C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_and.sv|
 !i113 1
 Z7 o-sv -work work
-Z8 !s92 -sv -work work {+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas}
+Z8 !s92 -sv -work work +incdir+C:/TallerDiseno-LAB3/ALU/OperacionesLogicas
 Z9 tCvgOpt 0
 vcompuerta_not
 R1
 R2
 !i10b 1
 !s100 aJiE6bHAH;T4_Ki:[3V<>3
-I313YL5N0iP^m?7SgPLk8W0
+I1hSe3T=ZkeFI;o1IP1oJI1
 R3
 !s105 compuerta_not_sv_unit
 S1
 R0
 R4
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_not.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_not.sv
+8C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_not.sv
+FC:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_not.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_not.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_not.sv|
+!s107 C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_not.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/OperacionesLogicas|C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_not.sv|
 !i113 1
 R7
 R8
@@ -63,97 +63,97 @@ R1
 R2
 !i10b 1
 !s100 zKXA?KJ=IlUPj^Hm:h1YR1
-InH0=RozEW@8R5Wg0kzPgE1
+I4<k7o9Y2F7Neck5Z?]G5k3
 R3
 !s105 compuerta_or_sv_unit
 S1
 R0
 R4
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_or.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_or.sv
+8C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_or.sv
+FC:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_or.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_or.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_or.sv|
+!s107 C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_or.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/OperacionesLogicas|C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_or.sv|
 !i113 1
 R7
 R8
 R9
 vcompuerta_xor
 R1
-Z10 !s110 1587233461
+R2
 !i10b 1
 !s100 ?^zDb]SGZFS;R`zZKm3L`2
-I]F[SGPhn?Bg7O4UY?Q:A]0
+I_DWg6OUYKI^T8_TfMAZPA3
 R3
 !s105 compuerta_xor_sv_unit
 S1
 R0
 R4
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_xor.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_xor.sv
+8C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_xor.sv
+FC:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_xor.sv
 L0 1
 R5
 r1
 !s85 0
 31
-Z11 !s108 1587233461.000000
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_xor.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_xor.sv|
+R6
+!s107 C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_xor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/OperacionesLogicas|C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/compuerta_xor.sv|
 !i113 1
 R7
 R8
 R9
 vcorrer_derecha_aritmetico
 R1
-R10
+Z10 !s110 1587435937
 !i10b 1
 !s100 i0dJ:^h_Z<le7DUH6TQ3o0
-IzLn?fNfBfeE4N3Fn3HoQ<3
+I<RVoQ57NV69OLEL1TSU[D1
 R3
 !s105 correr_derecha_aritmetico_sv_unit
 S1
 R0
-w1585424451
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_derecha_aritmetico.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_derecha_aritmetico.sv
+R4
+8C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_derecha_aritmetico.sv
+FC:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_derecha_aritmetico.sv
 L0 1
 R5
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_derecha_aritmetico.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_derecha_aritmetico.sv|
+Z11 !s108 1587435936.000000
+!s107 C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_derecha_aritmetico.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas|C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_derecha_aritmetico.sv|
 !i113 1
 R7
-Z12 !s92 -sv -work work {+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas}
+Z12 !s92 -sv -work work +incdir+C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas
 R9
 vcorrer_derecha_logico
 R1
-R10
+Z13 !s110 1587435936
 !i10b 1
 !s100 =Aa=?[`C0BOOjb5kY7[MH0
-I@=hNAN=zBQGi^3bZJ;47Z3
+IdV14hK1cPAR0UJOn1R[EY3
 R3
 !s105 correr_derecha_logico_sv_unit
 S1
 R0
-w1585348402
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_derecha_logico.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_derecha_logico.sv
+R4
+8C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_derecha_logico.sv
+FC:/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_derecha_logico.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R11
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_derecha_logico.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_derecha_logico.sv|
+!s107 C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_derecha_logico.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/OperacionesLogicas|C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_derecha_logico.sv|
 !i113 1
 R7
 R8
@@ -163,97 +163,97 @@ R1
 R10
 !i10b 1
 !s100 WWZzzn8=>[bbBm`ao@bUA1
-Ib8TP1Q66KPZa0N7<[E2G13
+I9A2fZDXTGgngDkGz>YVjO1
 R3
 !s105 correr_izquierda_aritmetico_sv_unit
 S1
 R0
-w1585425911
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_izquierda_aritmetico.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_izquierda_aritmetico.sv
+R4
+8C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_izquierda_aritmetico.sv
+FC:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_izquierda_aritmetico.sv
 L0 1
 R5
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_izquierda_aritmetico.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_izquierda_aritmetico.sv|
+Z14 !s108 1587435937.000000
+!s107 C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_izquierda_aritmetico.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas|C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/correr_izquierda_aritmetico.sv|
 !i113 1
 R7
 R12
 R9
 vcorrer_izquierda_logico
 R1
-R10
+R13
 !i10b 1
 !s100 EIXFD?d@c7[4^j6_aSzTb3
-IFld7P7l2[^PleX5EL;URP2
+I6A2>KU`E7z<2GGYFaReBQ2
 R3
 !s105 correr_izquierda_logico_sv_unit
 S1
 R0
-w1585348399
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_izquierda_logico.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_izquierda_logico.sv
+R4
+8C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_izquierda_logico.sv
+FC:/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_izquierda_logico.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R11
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_izquierda_logico.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_izquierda_logico.sv|
+!s107 C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_izquierda_logico.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/OperacionesLogicas|C:/TallerDiseno-LAB3/ALU/OperacionesLogicas/correr_izquierda_logico.sv|
 !i113 1
 R7
 R8
 R9
 vflag_carry
 R1
-Z13 !s110 1587233462
+R10
 !i10b 1
 !s100 9habRoGXRALKCQ>VXknR=0
-IClf]WT]Cf3BIW4DD1dzgi3
+IY`DOF9<:]f^?bokE:74gP1
 R3
 !s105 flag_carry_sv_unit
 S1
 R0
-w1587233434
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_carry.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_carry.sv
+R4
+8C:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_carry.sv
+FC:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_carry.sv
 L0 1
 R5
 r1
 !s85 0
 31
-Z14 !s108 1587233462.000000
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_carry.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_carry.sv|
+R14
+!s107 C:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_carry.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/UnidadFlags|C:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_carry.sv|
 !i113 1
 R7
-Z15 !s92 -sv -work work {+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags}
+Z15 !s92 -sv -work work +incdir+C:/TallerDiseno-LAB3/ALU/UnidadFlags
 R9
 vflag_cero
 R1
-!s110 1587233463
+R10
 !i10b 1
 !s100 Idb428keK;LKBaaQ6H:f<3
-I4QRU@2iY7hUEP2eK:im;^1
+INF=F;bmbl8kW7h0de7JM93
 R3
 !s105 flag_cero_sv_unit
 S1
 R0
-w1585770337
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_cero.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_cero.sv
+R4
+8C:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_cero.sv
+FC:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_cero.sv
 L0 1
 R5
 r1
 !s85 0
 31
-!s108 1587233463.000000
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_cero.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_cero.sv|
+R14
+!s107 C:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_cero.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/UnidadFlags|C:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_cero.sv|
 !i113 1
 R7
 R15
@@ -263,198 +263,223 @@ R1
 R10
 !i10b 1
 !s100 dE?D8L4Bo818`WECfMQ9C0
-I5ocUIVnIIC]H88Z9:f[T20
+IIIO^RdeD1_EJF0kIGZh@:0
 R3
 !s105 flag_negativo_sv_unit
 S1
 R0
-w1587232553
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_negativo.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_negativo.sv
-L0 1
-R5
-r1
-!s85 0
-31
-R11
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_negativo.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_negativo.sv|
-!i113 1
-R7
-R15
-R9
-vflag_overflow
-R1
-R13
-!i10b 1
-!s100 ae@f@Sgh73@HL[l]2LFom2
-I_h`4T=4CKYh1eWDNE8PI@3
-R3
-!s105 flag_overflow_sv_unit
-S1
-R0
-w1587233437
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_overflow.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_overflow.sv
+R4
+8C:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_negativo.sv
+FC:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_negativo.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R14
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_overflow.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/UnidadFlags/flag_overflow.sv|
+!s107 C:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_negativo.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/UnidadFlags|C:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_negativo.sv|
 !i113 1
 R7
 R15
 R9
-vmux1a2
+vflag_overflow
 R1
 R10
 !i10b 1
+!s100 ae@f@Sgh73@HL[l]2LFom2
+I<a8RPAKikja[V@AHHU8Q`1
+R3
+!s105 flag_overflow_sv_unit
+S1
+R0
+R4
+8C:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_overflow.sv
+FC:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_overflow.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_overflow.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/UnidadFlags|C:/TallerDiseno-LAB3/ALU/UnidadFlags/flag_overflow.sv|
+!i113 1
+R7
+R15
+R9
+vfrecuencia_tb
+R1
+R10
+!i10b 1
+!s100 54Q@=l7?jJ3?boPgLg^zm1
+I7ke:=@]4FdEQmDe5`TnZc2
+R3
+!s105 frecuencia_tb_sv_unit
+S1
+R0
+w1587435862
+8C:/TallerDiseno-LAB3/ALU/Registro/frecuencia_tb.sv
+FC:/TallerDiseno-LAB3/ALU/Registro/frecuencia_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/TallerDiseno-LAB3/ALU/Registro/frecuencia_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/Registro|C:/TallerDiseno-LAB3/ALU/Registro/frecuencia_tb.sv|
+!i113 1
+R7
+Z16 !s92 -sv -work work +incdir+C:/TallerDiseno-LAB3/ALU/Registro
+R9
+vmux1a2
+R1
+R13
+!i10b 1
 !s100 glRBzj^Eh_H>@d?cOSZ`93
-IazQa:10;:F02>`U9nPa8n0
+I2LECQCYHN@O_OM^jSF8V:2
 R3
 !s105 mux1a2_sv_unit
 S1
 R0
-w1585348795
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/mux1a2.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/mux1a2.sv
+R4
+8C:/TallerDiseno-LAB3/ALU/Unidad/mux1a2.sv
+FC:/TallerDiseno-LAB3/ALU/Unidad/mux1a2.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R11
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/mux1a2.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/mux1a2.sv|
+!s107 C:/TallerDiseno-LAB3/ALU/Unidad/mux1a2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/Unidad|C:/TallerDiseno-LAB3/ALU/Unidad/mux1a2.sv|
 !i113 1
 R7
-Z16 !s92 -sv -work work {+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad}
+Z17 !s92 -sv -work work +incdir+C:/TallerDiseno-LAB3/ALU/Unidad
 R9
 vmux3a8
 R1
-R10
+R13
 !i10b 1
 !s100 Qg?`9HfD1i0necec2`Ieb2
-I``m_LRVCDLa57PjO=AWf<2
+IN?o[C0XW2zjzDCfc06c7g2
 R3
 !s105 mux3a8_sv_unit
 S1
 R0
-w1585348800
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/mux3a8.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/mux3a8.sv
+R4
+8C:/TallerDiseno-LAB3/ALU/Unidad/mux3a8.sv
+FC:/TallerDiseno-LAB3/ALU/Unidad/mux3a8.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R11
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/mux3a8.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/mux3a8.sv|
+!s107 C:/TallerDiseno-LAB3/ALU/Unidad/mux3a8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/Unidad|C:/TallerDiseno-LAB3/ALU/Unidad/mux3a8.sv|
+!i113 1
+R7
+R17
+R9
+vregister
+R1
+R10
+!i10b 1
+!s100 lj0k;^5;nLDgVDnd98L4<0
+I]6FI2HJI_S4AagogJP[W62
+R3
+!s105 register_sv_unit
+S1
+R0
+w1587434577
+8C:/TallerDiseno-LAB3/ALU/Registro/register.sv
+FC:/TallerDiseno-LAB3/ALU/Registro/register.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/TallerDiseno-LAB3/ALU/Registro/register.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/Registro|C:/TallerDiseno-LAB3/ALU/Registro/register.sv|
 !i113 1
 R7
 R16
 R9
 vrestador
 R1
-R10
+R13
 !i10b 1
 !s100 _2bMmoBLl;aC?adeXzLAD3
-IjSfZ_W_=O][MgoH^_PB2m0
+IMWA51>KW@Fjh2V]c5nB9Y0
 R3
 !s105 restador_sv_unit
 S1
 R0
-w1585348982
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/restador.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/restador.sv
+R4
+8C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/restador.sv
+FC:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/restador.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R11
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/restador.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/restador.sv|
+!s107 C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/restador.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas|C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/restador.sv|
 !i113 1
 R7
 R12
 R9
 vsumador
 R1
-R10
+R13
 !i10b 1
 !s100 Qf162f6JFOe6cbR:1ALG@3
-II>OJklNlOlSY:Y1Bc5U7j3
+I_GFmk<BIWQ:NF1>1EJhk>2
 R3
 !s105 sumador_sv_unit
 S1
 R0
-w1585348980
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/sumador.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/sumador.sv
+R4
+8C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/sumador.sv
+FC:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/sumador.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R11
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/sumador.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/sumador.sv|
+!s107 C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/sumador.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas|C:/TallerDiseno-LAB3/ALU/OperacionesAritmeticas/sumador.sv|
 !i113 1
 R7
 R12
 R9
 vunidad_logico_aritmetica
 R1
-R10
+R13
 !i10b 1
 !s100 zICChVXLWmM=zi3ShTHBo2
-IGiYWXVGJ4mTQXOmI7]4fI3
+I79C9eh;5aE?10IXXB5:zi2
 R3
 !s105 unidad_logico_aritmetica_sv_unit
 S1
 R0
-w1587233381
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/unidad_logico_aritmetica.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/unidad_logico_aritmetica.sv
+R4
+8C:/TallerDiseno-LAB3/ALU/Unidad/unidad_logico_aritmetica.sv
+FC:/TallerDiseno-LAB3/ALU/Unidad/unidad_logico_aritmetica.sv
 L0 1
 R5
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/unidad_logico_aritmetica.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/unidad_logico_aritmetica.sv|
+R6
+!s107 C:/TallerDiseno-LAB3/ALU/Unidad/unidad_logico_aritmetica.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/TallerDiseno-LAB3/ALU/Unidad|C:/TallerDiseno-LAB3/ALU/Unidad/unidad_logico_aritmetica.sv|
 !i113 1
 R7
-R16
-R9
-vunidad_logico_aritmetica_test
-R1
-R10
-!i10b 1
-!s100 :`gMCOiLj81jGQl=lOGZf1
-I6m]zP:K<_Kz]mI;HXKg>S0
-R3
-!s105 unidad_logico_aritmetica_test_sv_unit
-S1
-R0
-w1587231569
-8C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/unidad_logico_aritmetica_test.sv
-FC:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/unidad_logico_aritmetica_test.sv
-L0 1
-R5
-r1
-!s85 0
-31
-R11
-!s107 C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/unidad_logico_aritmetica_test.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad|C:/Users/skryf/Documents/Taller de Diseno Digital/Laboratorio 3/TallerDiseno-LAB3/ALU/Unidad/unidad_logico_aritmetica_test.sv|
-!i113 1
-R7
-R16
+R17
 R9

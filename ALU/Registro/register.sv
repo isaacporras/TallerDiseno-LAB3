@@ -5,7 +5,7 @@ module register #(parameter N = 8) (input logic clk,
 												
 always_ff @(posedge clk, posedge reset)
 
-if (reset) q <= 4'b0;
+if (reset) q <= '0;
 
 else q <= d;
  

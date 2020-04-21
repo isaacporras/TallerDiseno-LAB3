@@ -4,63 +4,75 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "shift_right_out[0]",
+					"name" : "q[0]",
 					"strict" : false
 				},
 				{
-					"name" : "shift_right_out[1]",
+					"name" : "q[1]",
 					"strict" : false
 				},
 				{
-					"name" : "shift_right_out[2]",
+					"name" : "q[2]",
 					"strict" : false
 				},
 				{
-					"name" : "shift_right_out[3]",
+					"name" : "q[3]",
 					"strict" : false
 				},
 				{
-					"name" : "shift_right_out[4]",
+					"name" : "q[4]",
 					"strict" : false
 				},
 				{
-					"name" : "shift_right_out[5]",
+					"name" : "q[5]",
 					"strict" : false
 				},
 				{
-					"name" : "shift_right_out[6]",
+					"name" : "q[6]",
 					"strict" : false
 				},
 				{
-					"name" : "shift_right_out[7]",
+					"name" : "q[7]",
 					"strict" : false
 				},
 				{
-					"name" : "A[1]",
+					"name" : "d[0]",
 					"strict" : false
 				},
 				{
-					"name" : "A[2]",
+					"name" : "clk",
 					"strict" : false
 				},
 				{
-					"name" : "A[3]",
+					"name" : "reset",
 					"strict" : false
 				},
 				{
-					"name" : "A[4]",
+					"name" : "d[1]",
 					"strict" : false
 				},
 				{
-					"name" : "A[5]",
+					"name" : "d[2]",
 					"strict" : false
 				},
 				{
-					"name" : "A[6]",
+					"name" : "d[3]",
 					"strict" : false
 				},
 				{
-					"name" : "A[7]",
+					"name" : "d[4]",
+					"strict" : false
+				},
+				{
+					"name" : "d[5]",
+					"strict" : false
+				},
+				{
+					"name" : "d[6]",
+					"strict" : false
+				},
+				{
+					"name" : "d[7]",
 					"strict" : false
 				}
 			]
