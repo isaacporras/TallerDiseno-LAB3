@@ -4,75 +4,131 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "q[0]",
+					"name" : "resultadoFinal[0]",
 					"strict" : false
 				},
 				{
-					"name" : "q[1]",
+					"name" : "resultadoFinal[1]",
 					"strict" : false
 				},
 				{
-					"name" : "q[2]",
+					"name" : "resultadoFinal[2]",
 					"strict" : false
 				},
 				{
-					"name" : "q[3]",
+					"name" : "resultadoFinal[3]",
 					"strict" : false
 				},
 				{
-					"name" : "q[4]",
+					"name" : "resultadoFinal[4]",
 					"strict" : false
 				},
 				{
-					"name" : "q[5]",
+					"name" : "resultadoFinal[5]",
 					"strict" : false
 				},
 				{
-					"name" : "q[6]",
+					"name" : "resultadoFinal[6]",
 					"strict" : false
 				},
 				{
-					"name" : "q[7]",
+					"name" : "resultadoFinal[7]",
 					"strict" : false
 				},
 				{
-					"name" : "d[0]",
+					"name" : "flagNegativo",
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "flagCero",
 					"strict" : false
 				},
 				{
-					"name" : "reset",
+					"name" : "flagOverflow",
 					"strict" : false
 				},
 				{
-					"name" : "d[1]",
+					"name" : "flagCarry",
 					"strict" : false
 				},
 				{
-					"name" : "d[2]",
+					"name" : "ALUControl[2]",
 					"strict" : false
 				},
 				{
-					"name" : "d[3]",
+					"name" : "operador2[0]",
 					"strict" : false
 				},
 				{
-					"name" : "d[4]",
+					"name" : "ALUControl[0]",
 					"strict" : false
 				},
 				{
-					"name" : "d[5]",
+					"name" : "operador1[0]",
 					"strict" : false
 				},
 				{
-					"name" : "d[6]",
+					"name" : "operador1[1]",
 					"strict" : false
 				},
 				{
-					"name" : "d[7]",
+					"name" : "ALUControl[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUControl[3]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[7]",
 					"strict" : false
 				}
 			]

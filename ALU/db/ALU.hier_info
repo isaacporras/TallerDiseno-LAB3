@@ -1,22 +1,4 @@
-|frecuencia_tb
-
-
-|frecuencia_tb|register:PRIMERO
-clk => q[0]~reg0.CLK
-clk => q[1]~reg0.CLK
-clk => q[2]~reg0.CLK
-reset => q[0]~reg0.ACLR
-reset => q[1]~reg0.ACLR
-reset => q[2]~reg0.ACLR
-d[0] => q[0]~reg0.DATAIN
-d[1] => q[1]~reg0.DATAIN
-d[2] => q[2]~reg0.DATAIN
-q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA
+|unidad_logico_aritmetica
 operador1[0] => operador1[0].IN10
 operador1[1] => operador1[1].IN10
 operador1[2] => operador1[2].IN10
@@ -24,7 +6,7 @@ operador1[3] => operador1[3].IN10
 operador1[4] => operador1[4].IN10
 operador1[5] => operador1[5].IN10
 operador1[6] => operador1[6].IN10
-operador1[7] => operador1[7].IN10
+operador1[7] => operador1[7].IN11
 operador2[0] => operador2[0].IN9
 operador2[1] => operador2[1].IN9
 operador2[2] => operador2[2].IN9
@@ -32,11 +14,11 @@ operador2[3] => operador2[3].IN9
 operador2[4] => operador2[4].IN9
 operador2[5] => operador2[5].IN9
 operador2[6] => operador2[6].IN9
-operador2[7] => operador2[7].IN9
+operador2[7] => operador2[7].IN10
 ALUControl[0] => ALUControl[0].IN4
 ALUControl[1] => ALUControl[1].IN4
 ALUControl[2] => ALUControl[2].IN4
-ALUControl[3] => ALUControl[3].IN3
+ALUControl[3] => ALUControl[3].IN5
 resultadoFinal[0] <= resultadoFinal[0].DB_MAX_OUTPUT_PORT_TYPE
 resultadoFinal[1] <= resultadoFinal[1].DB_MAX_OUTPUT_PORT_TYPE
 resultadoFinal[2] <= resultadoFinal[2].DB_MAX_OUTPUT_PORT_TYPE
@@ -45,13 +27,13 @@ resultadoFinal[4] <= resultadoFinal[4].DB_MAX_OUTPUT_PORT_TYPE
 resultadoFinal[5] <= resultadoFinal[5].DB_MAX_OUTPUT_PORT_TYPE
 resultadoFinal[6] <= resultadoFinal[6].DB_MAX_OUTPUT_PORT_TYPE
 resultadoFinal[7] <= resultadoFinal[7].DB_MAX_OUTPUT_PORT_TYPE
-flagNegativo <= flag_negativo:Fnegativo.port1
-flagCero <= flag_cero:FCero.port1
-flagOverflow <= flag_overflow:FOverflow.port2
-flagCarry <= flag_carry:FCarry.port2
+flagNegativo <= flag_negativo:Fnegativo.port2
+flagCero <= flag_cero:FCero.port2
+flagOverflow <= flag_overflow:FOverflow.port4
+flagCarry <= flag_carry:FCarry.port3
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|compuerta_and:And
+|unidad_logico_aritmetica|compuerta_and:And
 a[0] => and_out.IN0
 a[1] => and_out.IN0
 a[2] => and_out.IN0
@@ -78,7 +60,7 @@ and_out[6] <= and_out.DB_MAX_OUTPUT_PORT_TYPE
 and_out[7] <= and_out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|compuerta_or:Or
+|unidad_logico_aritmetica|compuerta_or:Or
 a[0] => or_out.IN0
 a[1] => or_out.IN0
 a[2] => or_out.IN0
@@ -105,7 +87,7 @@ or_out[6] <= or_out.DB_MAX_OUTPUT_PORT_TYPE
 or_out[7] <= or_out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|compuerta_xor:Xor
+|unidad_logico_aritmetica|compuerta_xor:Xor
 a[0] => xor_out.IN0
 a[1] => xor_out.IN0
 a[2] => xor_out.IN0
@@ -132,7 +114,7 @@ xor_out[6] <= xor_out.DB_MAX_OUTPUT_PORT_TYPE
 xor_out[7] <= xor_out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|compuerta_not:Not
+|unidad_logico_aritmetica|compuerta_not:Not
 a[0] => not_out[0].DATAIN
 a[1] => not_out[1].DATAIN
 a[2] => not_out[2].DATAIN
@@ -151,7 +133,7 @@ not_out[6] <= a[6].DB_MAX_OUTPUT_PORT_TYPE
 not_out[7] <= a[7].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|correr_derecha_logico:RAShiftL
+|unidad_logico_aritmetica|correr_derecha_logico:RAShiftL
 A[0] => ~NO_FANOUT~
 A[1] => shift_right_out[0].DATAIN
 A[2] => shift_right_out[1].DATAIN
@@ -170,7 +152,7 @@ shift_right_out[6] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
 shift_right_out[7] <= <GND>
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|correr_izquierda_logico:LAShiftL
+|unidad_logico_aritmetica|correr_izquierda_logico:LAShiftL
 A[0] => shift_left_out[1].DATAIN
 A[1] => shift_left_out[2].DATAIN
 A[2] => shift_left_out[3].DATAIN
@@ -189,7 +171,7 @@ shift_left_out[6] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
 shift_left_out[7] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|correr_derecha_logico:RBShiftL
+|unidad_logico_aritmetica|correr_derecha_logico:RBShiftL
 A[0] => ~NO_FANOUT~
 A[1] => shift_right_out[0].DATAIN
 A[2] => shift_right_out[1].DATAIN
@@ -208,7 +190,7 @@ shift_right_out[6] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
 shift_right_out[7] <= <GND>
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|correr_izquierda_logico:LBShiftL
+|unidad_logico_aritmetica|correr_izquierda_logico:LBShiftL
 A[0] => shift_left_out[1].DATAIN
 A[1] => shift_left_out[2].DATAIN
 A[2] => shift_left_out[3].DATAIN
@@ -227,7 +209,7 @@ shift_left_out[6] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
 shift_left_out[7] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|mux3a8:MuxL
+|unidad_logico_aritmetica|mux3a8:MuxL
 result1[0] => Mux7.IN0
 result1[1] => Mux6.IN0
 result1[2] => Mux5.IN0
@@ -326,7 +308,7 @@ out[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 out[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|sumador:Add
+|unidad_logico_aritmetica|sumador:Add
 a[0] => _.DATAD
 a[1] => _.DATAD
 a[2] => _.DATAD
@@ -355,7 +337,7 @@ sum_out[7] <= _.SUM_OUT
 cout <= _.SUM_OUT
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|restador:Minus
+|unidad_logico_aritmetica|restador:Minus
 a[0] => Add0.IN16
 a[1] => Add0.IN15
 a[2] => Add0.IN14
@@ -380,9 +362,10 @@ rest_out[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 rest_out[5] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 rest_out[6] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 rest_out[7] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|correr_derecha_aritmetico:RAShiftA
+|unidad_logico_aritmetica|correr_derecha_aritmetico:RAShiftA
 A[0] => ~NO_FANOUT~
 A[1] => shift_right_out[0].DATAIN
 A[2] => shift_right_out[1].DATAIN
@@ -402,7 +385,7 @@ shift_right_out[6] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
 shift_right_out[7] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|correr_izquierda_aritmetico:LAShiftA
+|unidad_logico_aritmetica|correr_izquierda_aritmetico:LAShiftA
 A[0] => shift_right_out[1].DATAIN
 A[1] => shift_right_out[2].DATAIN
 A[2] => shift_right_out[3].DATAIN
@@ -421,7 +404,7 @@ shift_right_out[6] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
 shift_right_out[7] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|correr_derecha_aritmetico:RBShiftA
+|unidad_logico_aritmetica|correr_derecha_aritmetico:RBShiftA
 A[0] => ~NO_FANOUT~
 A[1] => shift_right_out[0].DATAIN
 A[2] => shift_right_out[1].DATAIN
@@ -441,7 +424,7 @@ shift_right_out[6] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
 shift_right_out[7] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|correr_izquierda_aritmetico:LBShiftA
+|unidad_logico_aritmetica|correr_izquierda_aritmetico:LBShiftA
 A[0] => shift_right_out[1].DATAIN
 A[1] => shift_right_out[2].DATAIN
 A[2] => shift_right_out[3].DATAIN
@@ -460,7 +443,7 @@ shift_right_out[6] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
 shift_right_out[7] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|mux3a8:MuxA
+|unidad_logico_aritmetica|mux3a8:MuxA
 result1[0] => Mux7.IN0
 result1[1] => Mux6.IN0
 result1[2] => Mux5.IN0
@@ -559,7 +542,7 @@ out[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 out[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|mux1a2:MuxR
+|unidad_logico_aritmetica|mux1a2:MuxR
 result1[0] => out.DATAA
 result1[1] => out.DATAA
 result1[2] => out.DATAA
@@ -587,12 +570,13 @@ out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[7] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|flag_negativo:Fnegativo
-ultimo_bit => resultado.DATAIN
-resultado <= ultimo_bit.DB_MAX_OUTPUT_PORT_TYPE
+|unidad_logico_aritmetica|flag_negativo:Fnegativo
+ultimo_bit => resultado.IN0
+ALUControl => resultado.IN1
+resultado <= resultado.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|flag_cero:FCero
+|unidad_logico_aritmetica|flag_cero:FCero
 num[0] => Equal0.IN7
 num[1] => Equal0.IN6
 num[2] => Equal0.IN5
@@ -601,39 +585,33 @@ num[4] => Equal0.IN3
 num[5] => Equal0.IN2
 num[6] => Equal0.IN1
 num[7] => Equal0.IN0
-zero_output <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+ALUControl => zero_output.IN1
+zero_output <= zero_output.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|flag_overflow:FOverflow
-carry_out => overflow.IN1
-ALU_Control[0] => Equal0.IN3
+|unidad_logico_aritmetica|flag_overflow:FOverflow
+msb_num1 => signo_operandos.IN0
+msb_num1 => cambio_de_signo.IN0
+msb_num2 => signo_operandos.IN1
+msb_resultado => cambio_de_signo.IN1
+ALU_Control[0] => signo_operandos.IN1
 ALU_Control[1] => Equal0.IN2
 ALU_Control[2] => Equal0.IN1
 ALU_Control[3] => Equal0.IN0
 overflow <= overflow.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|frecuencia_tb|unidad_logico_aritmetica:PRUEBA|flag_carry:FCarry
-carry_in => carry_output.IN1
+|unidad_logico_aritmetica|flag_carry:FCarry
+carry_in_suma => carry_output.IN1
+carry_in_resta => carry_output.IN1
 ALU_Control[0] => Equal0.IN3
+ALU_Control[0] => Equal1.IN1
 ALU_Control[1] => Equal0.IN2
+ALU_Control[1] => Equal1.IN3
 ALU_Control[2] => Equal0.IN1
+ALU_Control[2] => Equal1.IN2
 ALU_Control[3] => Equal0.IN0
+ALU_Control[3] => Equal1.IN0
 carry_output <= carry_output.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|frecuencia_tb|register:SEGUNDO
-clk => q[0]~reg0.CLK
-clk => q[1]~reg0.CLK
-clk => q[2]~reg0.CLK
-reset => q[0]~reg0.ACLR
-reset => q[1]~reg0.ACLR
-reset => q[2]~reg0.ACLR
-d[0] => q[0]~reg0.DATAIN
-d[1] => q[1]~reg0.DATAIN
-d[2] => q[2]~reg0.DATAIN
-q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
