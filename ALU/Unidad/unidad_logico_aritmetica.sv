@@ -4,7 +4,7 @@ module unidad_logico_aritmetica
 		input logic [3:0] ALUControl,
 		output logic [N-1:0] resultadoFinal,
 		output logic flagNegativo,
-		output logic flagCero,
+		output d6cff334b1a81441daaa42267e6b5763c3cf0fa2logic flagCero,
 		output logic flagOverflow,
 		output logic flagCarry);
 			
@@ -41,9 +41,9 @@ module unidad_logico_aritmetica
 			
 			mux1a2 #(N) MuxR(resultado1, resultado2, ALUControl[3], resultadoFinal);
 			
-			flag_negativo #(N) Fnegativo(resultadoFinal[N-1], flagNegativo);
-			flag_cero #(N) FCero(resultadoFinal, flagCero);
-			flag_overflow #(N) FOverflow(carry_out_suma, ALUControl, flagOverflow);
-			flag_carry #(N) FCarry(carry_out_suma, ALUControl[3:0], flagCarry);
+			flag_negativo #(N) Fnegativo(resultadoFinal[N-1], ALUControl[3], flagNegativo);
+			flag_cero #(N) FCero(resultadoFinal, ALUControl[3], flagCero);
+			flag_overflow #(N) FOverflow(operador1[N-1], operador2[N-1], resultadoFinal[N-1], ALUControl, flagOverflow);
+			flag_carry #(N) FCarry(carry_out_suma, ALUControl[3:1], flagCarry);
 					
 endmodule 
