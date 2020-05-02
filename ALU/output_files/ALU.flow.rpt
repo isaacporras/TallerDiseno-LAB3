@@ -1,6 +1,6 @@
 Flow report for ALU
-Thu Apr 30 10:56:45 2020
-Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Sat May 02 16:15:18 2020
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
 ---------------------
@@ -21,9 +21,9 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2019  Intel Corporation. All rights reserved.
+Copyright (C) 2018  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and any partner logic 
+and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -33,34 +33,28 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details, at
-https://fpgasoftware.intel.com/eula.
+refer to the applicable agreement for further details.
 
 
 
-+-------------------------------------------------------------------------------+
-; Flow Summary                                                                  ;
-+---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Thu Apr 30 10:56:45 2020       ;
-; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
-; Revision Name                   ; ALU                                         ;
-; Top-level Entity Name           ; unidad_logico_aritmetica                    ;
-; Family                          ; Cyclone V                                   ;
-; Device                          ; 5CGXFC7C7F23C8                              ;
-; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 0                                           ;
-; Total pins                      ; 32                                          ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 0                                           ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
-+---------------------------------+---------------------------------------------+
++---------------------------------------------------------------------------+
+; Flow Summary                                                              ;
++-----------------------------+---------------------------------------------+
+; Flow Status                 ; Successful - Sat May 02 16:15:18 2020       ;
+; Quartus Prime Version       ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
+; Revision Name               ; ALU                                         ;
+; Top-level Entity Name       ; unidad_logico_aritmetica_test_1             ;
+; Family                      ; Cyclone V                                   ;
+; Device                      ; 5CGXFC7C7F23C8                              ;
+; Timing Models               ; Final                                       ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
+; Total registers             ; N/A until Partition Merge                   ;
+; Total pins                  ; N/A until Partition Merge                   ;
+; Total virtual pins          ; N/A until Partition Merge                   ;
+; Total block memory bits     ; N/A until Partition Merge                   ;
+; Total PLLs                  ; N/A until Partition Merge                   ;
+; Total DLLs                  ; N/A until Partition Merge                   ;
++-----------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -68,51 +62,51 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/30/2020 10:56:38 ;
+; Start date & time ; 05/02/2020 16:15:06 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ALU                 ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                         ;
-+-------------------------------------+----------------------------------------+---------------+--------------------------+----------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name              ; Section Id     ;
-+-------------------------------------+----------------------------------------+---------------+--------------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 153951931695796.158826579816400        ; --            ; --                       ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --            ; --                       ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --                       ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; unidad_logico_aritmetica ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; unidad_logico_aritmetica ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; unidad_logico_aritmetica ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --                       ; --             ;
-; TOP_LEVEL_ENTITY                    ; unidad_logico_aritmetica               ; ALU           ; --                       ; --             ;
-+-------------------------------------+----------------------------------------+---------------+--------------------------+----------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                ;
++-------------------------------------+----------------------------------------+---------------+---------------------------------+----------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name                     ; Section Id     ;
++-------------------------------------+----------------------------------------+---------------+---------------------------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 220045545805507.158845770612136        ; --            ; --                              ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --            ; --                              ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --                              ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; unidad_logico_aritmetica_test_1 ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; unidad_logico_aritmetica_test_1 ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; unidad_logico_aritmetica_test_1 ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --                              ; --             ;
+; TOP_LEVEL_ENTITY                    ; unidad_logico_aritmetica_test_1        ; ALU           ; --                              ; --             ;
++-------------------------------------+----------------------------------------+---------------+---------------------------------+----------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4832 MB             ; 00:00:16                           ;
-; Total                ; 00:00:07     ; --                      ; --                  ; 00:00:16                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:13     ; 1.0                     ; 4774 MB             ; 00:00:30                           ;
+; Total                  ; 00:00:13     ; --                      ; --                  ; 00:00:30                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-VRFLMRQ  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++------------------------+------------------+------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++------------------------+------------------+------------+------------+----------------+
+; Analysis & Elaboration ; LAPTOP-OJR01514  ; Windows 10 ; 10.0       ; x86_64         ;
++------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU
+quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU --analysis_and_elaboration
 
 
 
