@@ -1,5 +1,5 @@
 Analysis & Elaboration report for ALU
-Sat May 02 16:15:18 2020
+Sat May 02 16:49:00 2020
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -61,10 +61,10 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Sat May 02 16:15:18 2020       ;
+; Analysis & Elaboration Status ; Successful - Sat May 02 16:49:00 2020       ;
 ; Quartus Prime Version         ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                 ; ALU                                         ;
-; Top-level Entity Name         ; unidad_logico_aritmetica_test_1             ;
+; Top-level Entity Name         ; unidad_logico_aritmetica_test_3             ;
 ; Family                        ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
 ; Total registers               ; N/A until Partition Merge                   ;
@@ -318,7 +318,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Option                                                                          ; Setting                         ; Default Value      ;
 +---------------------------------------------------------------------------------+---------------------------------+--------------------+
 ; Device                                                                          ; 5CGXFC7C7F23C8                  ;                    ;
-; Top-level entity name                                                           ; unidad_logico_aritmetica_test_1 ; ALU                ;
+; Top-level entity name                                                           ; unidad_logico_aritmetica_test_3 ; ALU                ;
 ; Family name                                                                     ; Cyclone V                       ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                             ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                              ; On                 ;
@@ -437,7 +437,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Sat May 02 16:15:05 2020
+    Info: Processing started: Sat May 02 16:48:47 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -451,8 +451,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file operaci
     Info (12023): Found entity 1: compuerta_xor File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file unidad/unidad_logico_aritmetica.sv
     Info (12023): Found entity 1: unidad_logico_aritmetica File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file unidad/unidad_logico_aritmetica_test.sv
-    Info (12023): Found entity 1: unidad_logico_aritmetica_test File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica_test.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file operacionesaritmeticas/restador.sv
     Info (12023): Found entity 1: restador File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/restador.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file operacionesaritmeticas/sumador.sv
@@ -489,8 +487,12 @@ Info (12021): Found 1 design units, including 1 entities, in source file registr
     Info (12023): Found entity 1: frecuencia_tb File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Registro/frecuencia_tb.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file pruebasalu/unidad_logico_aritmetica_test_1.sv
     Info (12023): Found entity 1: unidad_logico_aritmetica_test_1 File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test_1.sv Line: 1
-Info (12127): Elaborating entity "unidad_logico_aritmetica_test_1" for the top level hierarchy
-Info (12128): Elaborating entity "unidad_logico_aritmetica" for hierarchy "unidad_logico_aritmetica:PRUEBA" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test_1.sv Line: 11
+Info (12021): Found 1 design units, including 1 entities, in source file pruebasalu/unidad_logico_aritmetica_test_2.sv
+    Info (12023): Found entity 1: unidad_logico_aritmetica_test_2 File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test_2.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file pruebasalu/unidad_logico_aritmetica_test_3.sv
+    Info (12023): Found entity 1: unidad_logico_aritmetica_test_3 File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test_3.sv Line: 1
+Info (12127): Elaborating entity "unidad_logico_aritmetica_test_3" for the top level hierarchy
+Info (12128): Elaborating entity "unidad_logico_aritmetica" for hierarchy "unidad_logico_aritmetica:PRUEBA" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test_3.sv Line: 11
 Info (12128): Elaborating entity "compuerta_and" for hierarchy "unidad_logico_aritmetica:PRUEBA|compuerta_and:And" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv Line: 19
 Info (12128): Elaborating entity "compuerta_or" for hierarchy "unidad_logico_aritmetica:PRUEBA|compuerta_or:Or" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv Line: 20
 Info (12128): Elaborating entity "compuerta_xor" for hierarchy "unidad_logico_aritmetica:PRUEBA|compuerta_xor:Xor" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv Line: 21
@@ -509,9 +511,9 @@ Info (12128): Elaborating entity "flag_overflow" for hierarchy "unidad_logico_ar
 Info (12128): Elaborating entity "flag_carry" for hierarchy "unidad_logico_aritmetica:PRUEBA|flag_carry:FCarry" File: D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv Line: 48
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4774 megabytes
-    Info: Processing ended: Sat May 02 16:15:18 2020
+    Info: Peak virtual memory: 4775 megabytes
+    Info: Processing ended: Sat May 02 16:49:00 2020
     Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:30
+    Info: Total CPU time (on all processors): 00:00:29
 
 

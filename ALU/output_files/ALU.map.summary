@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Successful - Sat May 02 16:15:18 2020
+Analysis & Elaboration Status : Successful - Sat May 02 16:49:00 2020
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : ALU
-Top-level Entity Name : unidad_logico_aritmetica_test_1
+Top-level Entity Name : unidad_logico_aritmetica_test_3
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge
