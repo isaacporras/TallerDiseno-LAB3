@@ -10,7 +10,7 @@ cModel Technology
 Z0 dD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/simulation/modelsim
 vcompuerta_and
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1588483045
+Z2 !s110 1588699188
 !i10b 1
 !s100 LbVPN6]9hfonNIWiW^5k=0
 I0=7bezEF78n^P_QejG=ZL0
@@ -26,13 +26,13 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1588483044.000000
+Z5 !s108 1588699188.000000
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_and.sv|
 !i113 1
-Z5 o-sv -work work
-Z6 !s92 -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas
-Z7 tCvgOpt 0
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas
+Z8 tCvgOpt 0
 vcompuerta_not
 R1
 R2
@@ -43,7 +43,7 @@ R3
 !s105 compuerta_not_sv_unit
 S1
 R0
-Z8 w1585103581
+Z9 w1585103581
 8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv
 FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv
 L0 1
@@ -51,13 +51,13 @@ R4
 r1
 !s85 0
 31
-Z9 !s108 1588483045.000000
+R5
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_not.sv|
 !i113 1
-R5
 R6
 R7
+R8
 vcompuerta_or
 R1
 R2
@@ -68,7 +68,7 @@ R3
 !s105 compuerta_or_sv_unit
 S1
 R0
-R8
+R9
 8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv
 FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv
 L0 1
@@ -76,13 +76,13 @@ R4
 r1
 !s85 0
 31
-R9
+R5
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_or.sv|
 !i113 1
-R5
 R6
 R7
+R8
 vcompuerta_xor
 R1
 R2
@@ -93,7 +93,7 @@ R3
 !s105 compuerta_xor_sv_unit
 S1
 R0
-R8
+R9
 8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv
 FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv
 L0 1
@@ -101,16 +101,16 @@ R4
 r1
 !s85 0
 31
-R9
+R5
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/compuerta_xor.sv|
 !i113 1
-R5
 R6
 R7
+R8
 vcorrer_derecha_aritmetico
 R1
-Z10 !s110 1588483047
+Z10 !s110 1588699189
 !i10b 1
 !s100 i0dJ:^h_Z<le7DUH6TQ3o0
 IhOUnBCSG?WdO91VTXY`dJ1
@@ -126,16 +126,16 @@ R4
 r1
 !s85 0
 31
-Z12 !s108 1588483047.000000
+Z12 !s108 1588699189.000000
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/correr_derecha_aritmetico.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/correr_derecha_aritmetico.sv|
 !i113 1
-R5
+R6
 Z13 !s92 -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas
-R7
+R8
 vcorrer_derecha_logico
 R1
-Z14 !s110 1588483046
+R10
 !i10b 1
 !s100 =Aa=?[`C0BOOjb5kY7[MH0
 I?=FDU289S>WD]P<6o5k3B0
@@ -151,13 +151,13 @@ R4
 r1
 !s85 0
 31
-Z15 !s108 1588483046.000000
+R12
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha_logico.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_derecha_logico.sv|
 !i113 1
-R5
 R6
 R7
+R8
 vcorrer_izquierda_aritmetico
 R1
 R10
@@ -180,12 +180,12 @@ R12
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/correr_izquierda_aritmetico.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/correr_izquierda_aritmetico.sv|
 !i113 1
-R5
+R6
 R13
-R7
+R8
 vcorrer_izquierda_logico
 R1
-R14
+R10
 !i10b 1
 !s100 EIXFD?d@c7[4^j6_aSzTb3
 I];@m5lYb38=z<`gLUh>7I2
@@ -201,16 +201,16 @@ R4
 r1
 !s85 0
 31
-R15
+R12
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda_logico.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesLogicas/correr_izquierda_logico.sv|
 !i113 1
-R5
 R6
 R7
+R8
 vflag_carry
 R1
-R10
+Z14 !s110 1588699190
 !i10b 1
 !s100 _4>?XbkROD@emZS14gVid3
 IFYdFOzAOOdlc]=]c?8b=G3
@@ -218,7 +218,7 @@ R3
 !s105 flag_carry_sv_unit
 S1
 R0
-Z16 w1588265879
+Z15 w1588265879
 8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_carry.sv
 FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_carry.sv
 L0 1
@@ -226,16 +226,16 @@ R4
 r1
 !s85 0
 31
-R12
+Z16 !s108 1588699190.000000
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_carry.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_carry.sv|
 !i113 1
-R5
+R6
 Z17 !s92 -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags
-R7
+R8
 vflag_cero
 R1
-Z18 !s110 1588483048
+R14
 !i10b 1
 !s100 ^]8CCnCH1EQaBE@D;=lYO2
 IWD^8cTd:>V[m`>RW@kG=h0
@@ -243,7 +243,7 @@ R3
 !s105 flag_cero_sv_unit
 S1
 R0
-R16
+R15
 8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_cero.sv
 FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_cero.sv
 L0 1
@@ -251,13 +251,13 @@ R4
 r1
 !s85 0
 31
-Z19 !s108 1588483048.000000
+R16
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_cero.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_cero.sv|
 !i113 1
-R5
+R6
 R17
-R7
+R8
 vflag_negativo
 R1
 R10
@@ -268,7 +268,7 @@ R3
 !s105 flag_negativo_sv_unit
 S1
 R0
-R16
+R15
 8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_negativo.sv
 FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_negativo.sv
 L0 1
@@ -280,9 +280,9 @@ R12
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_negativo.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_negativo.sv|
 !i113 1
-R5
+R6
 R17
-R7
+R8
 vflag_overflow
 R1
 R10
@@ -293,7 +293,7 @@ R3
 !s105 flag_overflow_sv_unit
 S1
 R0
-R16
+R15
 8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_overflow.sv
 FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_overflow.sv
 L0 1
@@ -305,9 +305,9 @@ R12
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_overflow.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/UnidadFlags/flag_overflow.sv|
 !i113 1
-R5
+R6
 R17
-R7
+R8
 vmux1a2
 R1
 R10
@@ -326,16 +326,16 @@ R4
 r1
 !s85 0
 31
-R15
+R12
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/mux1a2.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/mux1a2.sv|
 !i113 1
-R5
-Z20 !s92 -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad
-R7
+R6
+Z18 !s92 -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad
+R8
 vmux3a8
 R1
-R14
+R10
 !i10b 1
 !s100 Qg?`9HfD1i0necec2`Ieb2
 IfboF]J>1Q^Ade80P[X^B]0
@@ -351,16 +351,16 @@ R4
 r1
 !s85 0
 31
-R15
+R12
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/mux3a8.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/mux3a8.sv|
 !i113 1
-R5
-R20
-R7
+R6
+R18
+R8
 vrestador
 R1
-R14
+R2
 !i10b 1
 !s100 IkRX00>jmhb272OYbLjf_2
 IG8jbTak2V3TLKBVaEeQLa3
@@ -368,7 +368,7 @@ R3
 !s105 restador_sv_unit
 S1
 R0
-R16
+R15
 8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/restador.sv
 FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/restador.sv
 L0 1
@@ -376,16 +376,16 @@ R4
 r1
 !s85 0
 31
-R9
+R5
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/restador.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/restador.sv|
 !i113 1
-R5
+R6
 R13
-R7
+R8
 vsumador
 R1
-R14
+R2
 !i10b 1
 !s100 Qf162f6JFOe6cbR:1ALG@3
 I`WN`keTlWz25R9Z4`H27R3
@@ -393,7 +393,7 @@ R3
 !s105 sumador_sv_unit
 S1
 R0
-R16
+R15
 8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/sumador.sv
 FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/sumador.sv
 L0 1
@@ -401,13 +401,13 @@ R4
 r1
 !s85 0
 31
-R15
+R5
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/sumador.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/OperacionesAritmeticas/sumador.sv|
 !i113 1
-R5
+R6
 R13
-R7
+R8
 vunidad_logico_aritmetica
 R1
 R2
@@ -418,7 +418,7 @@ R3
 !s105 unidad_logico_aritmetica_sv_unit
 S1
 R0
-R16
+R15
 8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv
 FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv
 L0 1
@@ -426,35 +426,35 @@ R4
 r1
 !s85 0
 31
-R9
+R5
 !s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/Unidad/unidad_logico_aritmetica.sv|
 !i113 1
-R5
-R20
-R7
-vunidad_logico_aritmetica_test_6
-R1
+R6
 R18
+R8
+vunidad_logico_aritmetica_test
+R1
+R14
 !i10b 1
-!s100 Yn:Xjf9eg?zVVf`Pfl[mO2
-IlF1BSnRnkDiQZm0neNh<50
+!s100 QzVYc7XC`XH6>2=EAkUR12
+IZ]ZbaoGa[5S;Ej[ae:;o<0
 R3
-!s105 unidad_logico_aritmetica_test_6_sv_unit
+!s105 unidad_logico_aritmetica_test_sv_unit
 S1
 R0
-w1588482992
-8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test_6.sv
-FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test_6.sv
+w1588698778
+8D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test.sv
+FD:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test.sv
 L0 1
 R4
 r1
 !s85 0
 31
-R19
-!s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test_6.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test_6.sv|
+R16
+!s107 D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU|D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU/unidad_logico_aritmetica_test.sv|
 !i113 1
-R5
+R6
 !s92 -sv -work work +incdir+D:/ProgramData/intelFPGA_lite/18.0/Laboratorio3/ALU/PruebasALU
-R7
+R8

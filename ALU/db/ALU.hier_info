@@ -1,7 +1,7 @@
-|unidad_logico_aritmetica_test_6
+|unidad_logico_aritmetica_test
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA
 operador1[0] => operador1[0].IN10
 operador1[1] => operador1[1].IN10
 operador1[2] => operador1[2].IN10
@@ -24,7 +24,7 @@ flagOverflow <= flag_overflow:FOverflow.port4
 flagCarry <= flag_carry:FCarry.port3
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|compuerta_and:And
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|compuerta_and:And
 a[0] => and_out.IN0
 a[1] => and_out.IN0
 a[2] => and_out.IN0
@@ -39,7 +39,7 @@ and_out[2] <= and_out.DB_MAX_OUTPUT_PORT_TYPE
 and_out[3] <= and_out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|compuerta_or:Or
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|compuerta_or:Or
 a[0] => or_out.IN0
 a[1] => or_out.IN0
 a[2] => or_out.IN0
@@ -54,7 +54,7 @@ or_out[2] <= or_out.DB_MAX_OUTPUT_PORT_TYPE
 or_out[3] <= or_out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|compuerta_xor:Xor
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|compuerta_xor:Xor
 a[0] => xor_out.IN0
 a[1] => xor_out.IN0
 a[2] => xor_out.IN0
@@ -69,7 +69,7 @@ xor_out[2] <= xor_out.DB_MAX_OUTPUT_PORT_TYPE
 xor_out[3] <= xor_out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|compuerta_not:Not
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|compuerta_not:Not
 a[0] => not_out[0].DATAIN
 a[1] => not_out[1].DATAIN
 a[2] => not_out[2].DATAIN
@@ -80,7 +80,7 @@ not_out[2] <= a[2].DB_MAX_OUTPUT_PORT_TYPE
 not_out[3] <= a[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|correr_derecha_logico:RAShiftL
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|correr_derecha_logico:RAShiftL
 A[0] => ~NO_FANOUT~
 A[1] => shift_right_out[0].DATAIN
 A[2] => shift_right_out[1].DATAIN
@@ -91,7 +91,7 @@ shift_right_out[2] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
 shift_right_out[3] <= <GND>
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|correr_izquierda_logico:LAShiftL
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|correr_izquierda_logico:LAShiftL
 A[0] => shift_left_out[1].DATAIN
 A[1] => shift_left_out[2].DATAIN
 A[2] => shift_left_out[3].DATAIN
@@ -102,7 +102,7 @@ shift_left_out[2] <= A[1].DB_MAX_OUTPUT_PORT_TYPE
 shift_left_out[3] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|correr_derecha_logico:RBShiftL
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|correr_derecha_logico:RBShiftL
 A[0] => ~NO_FANOUT~
 A[1] => shift_right_out[0].DATAIN
 A[2] => shift_right_out[1].DATAIN
@@ -113,7 +113,7 @@ shift_right_out[2] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
 shift_right_out[3] <= <GND>
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|correr_izquierda_logico:LBShiftL
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|correr_izquierda_logico:LBShiftL
 A[0] => shift_left_out[1].DATAIN
 A[1] => shift_left_out[2].DATAIN
 A[2] => shift_left_out[3].DATAIN
@@ -124,7 +124,7 @@ shift_left_out[2] <= A[1].DB_MAX_OUTPUT_PORT_TYPE
 shift_left_out[3] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|mux3a8:MuxL
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|mux3a8:MuxL
 result1[0] => Mux3.IN0
 result1[1] => Mux2.IN0
 result1[2] => Mux1.IN0
@@ -175,7 +175,7 @@ out[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 out[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|sumador:Add
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|sumador:Add
 a[0] => _.DATAD
 a[1] => _.DATAD
 a[2] => _.DATAD
@@ -192,7 +192,7 @@ sum_out[3] <= _.SUM_OUT
 cout <= _.SUM_OUT
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|restador:Minus
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|restador:Minus
 a[0] => Add0.IN8
 a[1] => Add0.IN7
 a[2] => Add0.IN6
@@ -208,7 +208,7 @@ rest_out[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 cout <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|correr_derecha_aritmetico:RAShiftA
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|correr_derecha_aritmetico:RAShiftA
 A[0] => ~NO_FANOUT~
 A[1] => shift_right_out[0].DATAIN
 A[2] => shift_right_out[1].DATAIN
@@ -220,7 +220,7 @@ shift_right_out[2] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
 shift_right_out[3] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|correr_izquierda_aritmetico:LAShiftA
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|correr_izquierda_aritmetico:LAShiftA
 A[0] => shift_right_out[1].DATAIN
 A[1] => shift_right_out[2].DATAIN
 A[2] => shift_right_out[3].DATAIN
@@ -231,7 +231,7 @@ shift_right_out[2] <= A[1].DB_MAX_OUTPUT_PORT_TYPE
 shift_right_out[3] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|correr_derecha_aritmetico:RBShiftA
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|correr_derecha_aritmetico:RBShiftA
 A[0] => ~NO_FANOUT~
 A[1] => shift_right_out[0].DATAIN
 A[2] => shift_right_out[1].DATAIN
@@ -243,7 +243,7 @@ shift_right_out[2] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
 shift_right_out[3] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|correr_izquierda_aritmetico:LBShiftA
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|correr_izquierda_aritmetico:LBShiftA
 A[0] => shift_right_out[1].DATAIN
 A[1] => shift_right_out[2].DATAIN
 A[2] => shift_right_out[3].DATAIN
@@ -254,7 +254,7 @@ shift_right_out[2] <= A[1].DB_MAX_OUTPUT_PORT_TYPE
 shift_right_out[3] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|mux3a8:MuxA
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|mux3a8:MuxA
 result1[0] => Mux3.IN0
 result1[1] => Mux2.IN0
 result1[2] => Mux1.IN0
@@ -305,7 +305,7 @@ out[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 out[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|mux1a2:MuxR
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|mux1a2:MuxR
 result1[0] => out.DATAA
 result1[1] => out.DATAA
 result1[2] => out.DATAA
@@ -321,13 +321,13 @@ out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|flag_negativo:Fnegativo
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|flag_negativo:Fnegativo
 ultimo_bit => resultado.IN0
 ALUControl => resultado.IN1
 resultado <= resultado.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|flag_cero:FCero
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|flag_cero:FCero
 num[0] => Equal0.IN3
 num[1] => Equal0.IN2
 num[2] => Equal0.IN1
@@ -336,7 +336,7 @@ ALUControl => zero_output.IN1
 zero_output <= zero_output.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|flag_overflow:FOverflow
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|flag_overflow:FOverflow
 msb_num1 => signo_operandos.IN0
 msb_num1 => cambio_de_signo.IN0
 msb_num2 => signo_operandos.IN1
@@ -348,7 +348,7 @@ ALU_Control[3] => Equal0.IN0
 overflow <= overflow.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|unidad_logico_aritmetica_test_6|unidad_logico_aritmetica:PRUEBA|flag_carry:FCarry
+|unidad_logico_aritmetica_test|unidad_logico_aritmetica:PRUEBA|flag_carry:FCarry
 carry_in_suma => carry_output.IN1
 carry_in_resta => carry_output.IN1
 ALU_Control[0] => Equal0.IN3
